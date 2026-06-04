@@ -1,6 +1,6 @@
 [build]
 builder = "NIXPACKS"
-buildCommand = "npm install && ./node_modules/.bin/vite build"
+buildCommand = "npm install && npx vite build"
 
 [deploy]
 startCommand = "npx serve dist -l $PORT"
